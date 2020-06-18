@@ -6,9 +6,13 @@
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T01QUSE)
 
+[![librepay-patrons](https://img.shields.io/liberapay/patrons/juraj.masiar.svg?logo=liberapay)](https://liberapay.com/juraj.masiar/)
+[![librepay-receives](https://img.shields.io/liberapay/receives/juraj.masiar.svg?logo=liberapay)](https://liberapay.com/juraj.masiar/)
+
+
 # ScrollAnywhere
 
-ScrollAnywhere is extension that allows easier scrolling on web.
+ScrollAnywhere is extension that allows you to scroll web with ease :)
 
 **Firefox:**  
 https://addons.mozilla.org/addon/scroll_anywhere/
