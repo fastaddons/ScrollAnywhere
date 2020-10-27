@@ -1,0 +1,373 @@
+
+
+
+#        ScrollAnywhere
+app_name=ScrollAnywhere
+#        Drag scrollbar with your middle mouse button anywhere on the page. Supports also "grab and drag" style and Momentum.
+app_desc=
+
+#                       Default value: $1, min: $2, max: $3
+field_int_default_value=Valor por defecto: $1, min: $2, max: $3
+#                 Reset to default: $1
+field_set_default=Reiniciar valor: $1
+
+
+#                 Thunderbird Add-ons page
+thunderbird_store=
+#             Firefox Add-ons page
+firefox_store=Página de complementos de Firefox
+#            Chrome Web Store page
+chrome_store=Página Chrome Web Store
+#           Disable on $1
+win_disable=
+#                                Disable horizontal scrolling on $1
+win_horizontal_scrolling_disable=
+#             Visit homepage
+op_visit_home=Visitar página principal
+#             Help this project
+op_support_me=Apoya este proyecto
+
+
+#       Options - $1
+o_title=Opciones - $1
+#             General
+o_tab_general=General
+#              Momentum
+o_tab_momentum=
+#            Cursor
+o_tab_cursor=
+#              Axis locking
+o_axis_locking=
+#                 Performance
+o_tab_performance=
+#                 Disabled on
+o_tab_disabled_on=
+#              Advanced
+o_tab_advanced=
+#                Scrollbars
+o_tab_scrollbars=
+#            Backup
+o_tab_backup=
+#           About
+o_tab_about=Acerca de
+
+#                  When scrolling a box that is scrollable in one axis but parent box is scrollable in other axis, lock scrolling to one axis using:
+o_axis_lock_helper=
+#             Smart lock - temporal lock using momentum
+o_axis_lock_0=
+#             Strict lock - instant direction lock
+o_axis_lock_1=
+#             No lock - free scrolling in both axis
+o_axis_lock_2=
+#                       Smart lock stack size
+o_trend_momentum_window=
+#                              Larger value will require more scrolling in opposite axis to change the scrolling axis.
+o_trend_momentum_window_helper=
+
+#                        Addon is disabled! Click here to enable.
+o_addon_disabled_warning=
+
+#                       no change - best performance
+o_cursor_change_default=
+#               Scroll button:
+o_scroll_button=
+#                 Scroll style  / direction / speed:
+o_direction_speed=
+#            Multiplier
+o_multiplier=
+#             times scroll speed
+o_times_speed=
+
+#               Maximum scroll speed (0 - disabled):
+o_maximum_speed=
+#            ratio (page length / window size)
+o_ratio_unit=
+
+#               Emulate Scrollbar
+o_scroll_type_0=
+#               Grab and Drag - like on a smartphone
+o_scroll_type_1=
+#               Dynamic Speed (experimental)
+o_scroll_type_2=
+#                     It's like dragging a scrollbar
+o_scroll_type_title_0=
+#                     It's like dragging a page with your finger on a phone screen
+o_scroll_type_title_1=
+#                     Dynamic Speed makes scroll speed slower when page is longer
+o_scroll_type_title_2=
+
+#             Disable / Enable scrolling when key is down:
+o_disable_key=
+#                   Momentum:
+o_momentum_category=
+
+#                  Momentum formula:
+o_momentum_formula=
+#                         Uniformly decelerated movement
+o_momentum_formula_type_0=
+#                               Page scroll will be uniformly slowed down until it stops
+o_momentum_formula_type_title_0=
+#                         Exponentially decelerated movement
+o_momentum_formula_type_1=
+#                               Page scroll will rapidly (exponentially) slow down
+o_momentum_formula_type_title_1=
+#                         Infinite movement ∞
+o_momentum_formula_type_2=
+#                               Scrolling will never stop
+o_momentum_formula_type_title_2=
+
+#                    Maximum speed (0 - disabled):
+o_momentum_max_speed=
+
+#             Page weight:
+o_page_weight=
+#       grams :)
+o_grams=
+#                  Additional speed:
+o_additional_speed=
+#               pixels per second
+o_pixels_second=
+#                     Additional duration:
+o_additional_duration=
+#              milliseconds
+o_milliseconds=milisegundos
+#                   Advanced momentum setup (for experts only!):
+o_advanced_momentum=
+#                         Changing these values can break your momentum!
+o_advanced_momentum_title=
+#                   Compute from last:
+o_compute_from_last=
+#                      Mouse stop detection:
+o_mouse_stop_detection=
+#                Tracking speed:
+o_tracking_speed=
+#              Reset values
+o_reset_values=
+#                  Cursor used when scrolling:
+o_cursor_scrolling=
+#             Performance:
+o_performance=
+#                   Prevent big jumps
+o_prevent_big_jumps=
+#                          If you are using tool that can teleport your cursor across the screen (when you reach an edge), enable this option to allow continuous (infinite) scrolling.
+o_prevent_big_jumps_helper=
+#          Advanced:
+o_advanced=
+#                    Mouse movement detection threshold:
+o_movement_detection=
+#                            How many pixels has to mouse move to block link. Sometimes when pressing scroll button you move mouse slightly but you don't want the link to be disabled because of that.
+o_helper_text_move_detection=
+#                    Context menu block:
+o_context_menu_block=
+#                            Unblock context menu delay
+o_context_menu_unblock_delay=
+#                                   If you see context menu after scrolling with Right mouse button, increase this value
+o_context_menu_unblock_delay_helper=
+
+#       times
+o_times=
+#        pixels
+o_pixels=píxeles
+#       items
+o_items=
+
+#                                       Disable horizontal scrolling on domains:
+o_disabled_horizontal_scrolling_domains=
+#                     Disabled on domains:
+o_is_disabled_domains=
+#                 Disabled on pages / sub-pages:
+o_is_disabled_url=
+#                      You can use star symbol (*) to define a URL part, for example: "google.com/maps*"
+o_is_disabled_url_help=
+#             Disable add-on
+o_is_disabled=
+#                      Middle button
+o_scroll_button_middle=
+#                     Right button
+o_scroll_button_right=
+#                                Linux / Mac users - you will be prompted for new permission "Read and modify browser setting" - this is required to suppress context menu being shown before scrolling!
+o_scroll_button_right_linux_note=
+#                                       Linux / Mac users - your context menu will be blocked! To open context menu hold "Shift" key or triple-click right button.
+o_scroll_button_right_linux_chrome_note=
+#                    Left button (experimental)
+o_scroll_button_left=
+#                 Scroll on links
+o_scroll_on_links=
+#                       When enabled, you won't be able to drag and drop links (only by using 'Disable' key)
+o_scroll_on_links_title=
+#                Scroll on text
+o_scroll_on_text=
+#                      Emulates phone scrolling / editing - you need to click on text in order to switch to "editing mode". Clicking outside of text enables scrolling again.
+o_scroll_on_text_title=
+#                    Scroll on textarea
+o_scroll_on_textarea=
+#                          Textarea is a block of text, usually resizable. For example on "Disabled on" tab you can see textarea.
+o_scroll_on_textarea_title=
+#                         Scroll on editable html
+o_scroll_on_editable_html=
+#                               For example email body in Gmail is editable html.
+o_scroll_on_editable_html_title=
+
+#                          on text will enable selecting / editing text.
+o_scroll_on_text_edit_with=
+#                                Click on text will enable "Edit mode". Click outside text to enable "Scroll mode".
+o_scroll_on_text_edit_with_title=
+#                            Single click
+o_scroll_on_text_edit_with_0=
+#                            Double click
+o_scroll_on_text_edit_with_1=
+
+#                  Scrollbars look
+o_scrollbars_width=
+#                    Normal (no change)
+o_scrollbars_width_0=
+#                    Thin
+o_scrollbars_width_1=
+#                    Hidden
+o_scrollbars_width_2=
+
+#                  Scrollbar slider color:
+o_scrollbars_color=
+#                       Scrollbar background color:
+o_scrollbars_background=
+
+#         Reverse scroll direction
+o_reverse=
+#             Alt
+o_disable_alt=
+#               Shift
+o_disable_shift=
+#              Ctrl
+o_disable_ctrl=
+#                Disable when key is down:
+o_disable_type_0=
+#                Enable when key is down:
+o_disable_type_1=
+#          disabled
+o_disabled=No
+#         enabled
+o_enabled=Sí
+#          enable momentum - you can "throw" the page (like on phone)
+o_momentum=
+#             Don't lock iframes and don't change cursor when scrolling
+o_no_css_edit=
+#                    Don't block default button action
+o_no_prevent_default=
+#                Links blocking:
+o_auto_link_lock=
+#               Don't block mouse click on link after movement
+o_no_link_block=
+#                               When you start scrolling on a link and then you finish scrolling on the same link, browser will open the link. This is usually not desired behaviour so by default it's blocked.
+o_helper_text_middle_link_click=
+
+#                   This controls how 'heavy' the page is. Heavier pages has longer momentum.
+o_page_weight_title=
+#                        You can accelerate momentum stating speed.
+o_additional_speed_title=
+#                           Additional time for each momentum.
+o_additional_duration_title=
+#                         Momentum initial speed is determined by the speed of scrolling right before releasing the Scroll button.
+o_compute_from_last_title=
+#                            How much time has to mouse stay still - before releasing the Scroll button - to NOT activate Momentum.
+o_mouse_stop_detection_title=
+#                      Interval for measuring current scroll speed.
+o_tracking_speed_title=
+#                Scrolling area:
+o_scrolling_area=
+#                    Scrolling area (0 - disabled):
+o_outside_area_width=
+#                           Moving your cursor outside of scrolling area will revert scrolling position. Same behavior can be seen when dragging a scrollbar.
+o_outside_area_width_helper=
+
+#                          Warning - Left button support is using deprecated Firefox API that could be removed in future versions of Firefox.
+o_scroll_button_left_title=
+#                        Prevent text selection when scrolling with left button
+o_prevent_text_selection=
+#                                    On some devices, scrolling with left mouse button will also select text on the page.
+o_helper_text_prevent_text_selection=
+
+#                              Don't block context menu when trying to scroll not-scrollable page
+o_disable_context_menu_on_move=
+
+
+#                Backup / Restore settings:
+o_backup_restore=
+#                 Export settings to a file
+o_export_settings=
+#                      Import settings from $1 file...
+import_settings_button=
+#               Import finished!
+import_finished=
+#             working...
+label_working=
+
+
+#               Test your scrolling settings here
+test_page_title=Prueba aquí tu configuración de desplazamiento
+
+
+#            Options
+menu_options=Opciones
+#                Visit homepage
+menu_visit_title=Visitar página principal
+#           Disabled by your web-browser
+not_working=
+#                Disabled on this domain
+disabled_by_user=
+#                 Your browser will block ScrollAnywhere on these type of pages:
+not_working_title=
+#                To enable ScrollAnywhere on "mozilla.org" pages, see this YouTube tutorial
+not_working_body=
+
+#           Close
+label_close=Cerrar
+
+
+#             Switch add-on OFF / ON
+switch_on_off=
+
+#                                If you experience noticeable delay between pressing scroll button and starting scrolling, try to enable this option. However you will not be able to scroll over "iframes" such as some old embedded videos or some ads.
+o_helper_text_performance_iframe=
+#                                This will also disable option to change cursor while scrolling.
+o_helper_text_performance_cursor=
+#                            Useful in Linux to enable Paste with middle button.
+o_helper_text_default_action=
+
+#             Hello :)
+o_about_hello=Hola :)
+#             My name is Juraj Mäsiar and I'm the author of ScrollAnywhere.
+o_about_intro=Me llamo Juraj Mäsiar y soy el creador de ScrollAnywhere.
+#               If you like it, please rate it here:
+o_about_like_it=Si te gusta, por favor valóralo aquí:
+#                  If you don't like it, please let me know why to my e-mail. I'm implementing most of the feature-requests I receive.
+o_about_dislike_it=Si no te gusta, por favor hazme saber el porqué a mi correo. Estoy implementando la mayoría de peticiones que recibo.
+
+#                  Please consider supporting my work by
+o_about_support_by=Por favor, considera apoyar mi trabajo a través de:
+#                           donation (PayPal)
+o_about_support_by_donation=una donación (PayPal)
+#                         becoming my Patron
+o_about_support_by_patron=contratarme (Patreon)
+
+#              Thank you!
+o_about_thanks=¡Muchas gracias!
+#            home:
+o_about_home=Página oficial:
+#               Contact:
+o_about_contact=Contacto:
+#              Report issues:
+o_about_issues=
+#                     I can reply only in English / Slovak
+o_about_support_reply=Sólo puedo responder en Inglés y Eslovaco
+#                    Social media:
+o_about_social_media=Redes sociales:
+#            Save changes and close
+o_save_close=Salvar cambios y cerrar
+#       saved!
+o_saved=¡Salvado!
+
+
+#                 Coming soon
+label_coming_soon=Muy pronto
+#                  Save changes
+label_save_changes=Guardar cambios

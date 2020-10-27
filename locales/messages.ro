@@ -1,0 +1,373 @@
+
+
+
+#        ScrollAnywhere
+app_name=ScrollAnywhere
+#        Drag scrollbar with your middle mouse button anywhere on the page. Supports also "grab and drag" style and Momentum.
+app_desc=Glisați bara de defilare cu butonul din mijloc al mouse-ului oriunde pe pagină. Suportă, de asemenea, stilul „apuca și trage” și Momentum.
+
+#                       Default value: $1, min: $2, max: $3
+field_int_default_value=Valoarea implicită: $1, min: $2, max: $3
+#                 Reset to default: $1
+field_set_default=Resetați la valoarea implicită: $1
+
+
+#                 Thunderbird Add-ons page
+thunderbird_store=
+#             Firefox Add-ons page
+firefox_store=Pagina complementelor Firefox
+#            Chrome Web Store page
+chrome_store=pagina Magazin Web Chrome
+#           Disable on $1
+win_disable=Dezactivează $1
+#                                Disable horizontal scrolling on $1
+win_horizontal_scrolling_disable=
+#             Visit homepage
+op_visit_home=Accesați pagina de pornire
+#             Help this project
+op_support_me=Ajutați acest proiect
+
+
+#       Options - $1
+o_title=Opțiuni - $1
+#             General
+o_tab_general=General
+#              Momentum
+o_tab_momentum=Momentum
+#            Cursor
+o_tab_cursor=Cursor
+#              Axis locking
+o_axis_locking=
+#                 Performance
+o_tab_performance=Performanță
+#                 Disabled on
+o_tab_disabled_on=Dezactivat activat
+#              Advanced
+o_tab_advanced=Avansat
+#                Scrollbars
+o_tab_scrollbars=Barele de derulare
+#            Backup
+o_tab_backup=Backup
+#           About
+o_tab_about=Despre
+
+#                  When scrolling a box that is scrollable in one axis but parent box is scrollable in other axis, lock scrolling to one axis using:
+o_axis_lock_helper=
+#             Smart lock - temporal lock using momentum
+o_axis_lock_0=
+#             Strict lock - instant direction lock
+o_axis_lock_1=
+#             No lock - free scrolling in both axis
+o_axis_lock_2=
+#                       Smart lock stack size
+o_trend_momentum_window=
+#                              Larger value will require more scrolling in opposite axis to change the scrolling axis.
+o_trend_momentum_window_helper=
+
+#                        Addon is disabled! Click here to enable.
+o_addon_disabled_warning=
+
+#                       no change - best performance
+o_cursor_change_default=nicio modificare - cea mai bună performanță
+#               Scroll button:
+o_scroll_button=Butonul de derulare:
+#                 Scroll style  / direction / speed:
+o_direction_speed=Stil de defilare / direcție / viteză:
+#            Multiplier
+o_multiplier=Multiplicator
+#             times scroll speed
+o_times_speed=viteza de defilare
+
+#               Maximum scroll speed (0 - disabled):
+o_maximum_speed=Viteza maximă de derulare (0 - dezactivată):
+#            ratio (page length / window size)
+o_ratio_unit=raport (lungimea paginii / dimensiunea ferestrei)
+
+#               Emulate Scrollbar
+o_scroll_type_0=Emulați bara de defilare
+#               Grab and Drag - like on a smartphone
+o_scroll_type_1=Grab and Drag - ca pe un smartphone
+#               Dynamic Speed (experimental)
+o_scroll_type_2=Viteza dinamică (experimentală)
+#                     It's like dragging a scrollbar
+o_scroll_type_title_0=Este ca și cum ai trage o bară de defilare
+#                     It's like dragging a page with your finger on a phone screen
+o_scroll_type_title_1=Este ca și cum ai trage o pagină cu degetul pe ecranul telefonului
+#                     Dynamic Speed makes scroll speed slower when page is longer
+o_scroll_type_title_2=Viteza dinamică face viteza de derulare mai lentă când pagina este mai lungă
+
+#             Disable / Enable scrolling when key is down:
+o_disable_key=Dezactivare / Activare derulare când tasta este în jos:
+#                   Momentum:
+o_momentum_category=Momentum:
+
+#                  Momentum formula:
+o_momentum_formula=Formula de moment:
+#                         Uniformly decelerated movement
+o_momentum_formula_type_0=Mișcarea decelerată uniform
+#                               Page scroll will be uniformly slowed down until it stops
+o_momentum_formula_type_title_0=Defilarea paginii va fi încetinită uniform până când se va opri
+#                         Exponentially decelerated movement
+o_momentum_formula_type_1=Mișcarea decelerată exponențial
+#                               Page scroll will rapidly (exponentially) slow down
+o_momentum_formula_type_title_1=Defilarea paginii se va încetini rapid (exponențial)
+#                         Infinite movement ∞
+o_momentum_formula_type_2=Mișcarea infinită ∞
+#                               Scrolling will never stop
+o_momentum_formula_type_title_2=Defilarea nu se va opri niciodată
+
+#                    Maximum speed (0 - disabled):
+o_momentum_max_speed=Viteza maximă (0 - dezactivată):
+
+#             Page weight:
+o_page_weight=Greutatea paginii:
+#       grams :)
+o_grams=grame :)
+#                  Additional speed:
+o_additional_speed=Viteză suplimentară:
+#               pixels per second
+o_pixels_second=pixeli pe secundă
+#                     Additional duration:
+o_additional_duration=Durata suplimentară:
+#              milliseconds
+o_milliseconds=milisecunde
+#                   Advanced momentum setup (for experts only!):
+o_advanced_momentum=Configurarea avansată a momentului (doar pentru experți!):
+#                         Changing these values can break your momentum!
+o_advanced_momentum_title=Modificarea acestor valori îți poate întrerupe impulsul!
+#                   Compute from last:
+o_compute_from_last=Calculează din ultima:
+#                      Mouse stop detection:
+o_mouse_stop_detection=Detectarea stopului mouse-ului:
+#                Tracking speed:
+o_tracking_speed=Viteza de urmărire:
+#              Reset values
+o_reset_values=Resetați valorile
+#                  Cursor used when scrolling:
+o_cursor_scrolling=Cursorul utilizat la defilare:
+#             Performance:
+o_performance=Performanță:
+#                   Prevent big jumps
+o_prevent_big_jumps=
+#                          If you are using tool that can teleport your cursor across the screen (when you reach an edge), enable this option to allow continuous (infinite) scrolling.
+o_prevent_big_jumps_helper=
+#          Advanced:
+o_advanced=Avansat:
+#                    Mouse movement detection threshold:
+o_movement_detection=Pragul de detectare a mișcării mouse-ului:
+#                            How many pixels has to mouse move to block link. Sometimes when pressing scroll button you move mouse slightly but you don't want the link to be disabled because of that.
+o_helper_text_move_detection=Câți pixeli trebuie să se miște pentru a bloca linkul. Uneori, când apăsați butonul de defilare, mutați ușor mouse-ul, dar nu doriți ca linkul să fie dezactivat din cauza asta.
+#                    Context menu block:
+o_context_menu_block=Bloc meniu contextual:
+#                            Unblock context menu delay
+o_context_menu_unblock_delay=Deblocați întârzierea meniului contextual
+#                                   If you see context menu after scrolling with Right mouse button, increase this value
+o_context_menu_unblock_delay_helper=Dacă vedeți meniul contextual după derularea cu butonul dreapta al mouse-ului, creșteți această valoare
+
+#       times
+o_times=ori
+#        pixels
+o_pixels=pixeli
+#       items
+o_items=
+
+#                                       Disable horizontal scrolling on domains:
+o_disabled_horizontal_scrolling_domains=
+#                     Disabled on domains:
+o_is_disabled_domains=Dezactivat pe domenii:
+#                 Disabled on pages / sub-pages:
+o_is_disabled_url=Dezactivat pe pagini / sub-pagini:
+#                      You can use star symbol (*) to define a URL part, for example: "google.com/maps*"
+o_is_disabled_url_help=Puteți utiliza simbolul stele (*) pentru a defini o parte URL, de exemplu: "google.com/maps*"
+#             Disable add-on
+o_is_disabled=Dezactivați suplimentul
+#                      Middle button
+o_scroll_button_middle=Buton mijloc
+#                     Right button
+o_scroll_button_right=Butonul drept
+#                                Linux / Mac users - you will be prompted for new permission "Read and modify browser setting" - this is required to suppress context menu being shown before scrolling!
+o_scroll_button_right_linux_note=Utilizatorii Linux / Mac - vi se va solicita o nouă permisiune "Citiți și modificați setarea browserului" - aceasta este necesară pentru a suprima meniul contextual care este afișat înainte de derulare!
+#                                       Linux / Mac users - your context menu will be blocked! To open context menu hold "Shift" key or triple-click right button.
+o_scroll_button_right_linux_chrome_note=Utilizatori Linux / Mac - meniul dvs. contextual va fi blocat! Pentru a deschide meniul contextual, țineți apăsată tasta „Shift” sau faceți triplu clic pe butonul dreapta.
+#                    Left button (experimental)
+o_scroll_button_left=Butonul stânga (experimental)
+#                 Scroll on links
+o_scroll_on_links=Parcurgeți linkurile
+#                       When enabled, you won't be able to drag and drop links (only by using 'Disable' key)
+o_scroll_on_links_title=Când este activat, nu veți putea glisa și arunca link-uri (doar cu ajutorul tastei „Dezactivați”)
+#                Scroll on text
+o_scroll_on_text=Derulați pe text
+#                      Emulates phone scrolling / editing - you need to click on text in order to switch to "editing mode". Clicking outside of text enables scrolling again.
+o_scroll_on_text_title=Emulează derularea / editarea telefonului - trebuie să faceți clic pe text pentru a trece la „modul de editare”. Făcând clic în afara textului, permiteți din nou derularea.
+#                    Scroll on textarea
+o_scroll_on_textarea=Parcurgeți textarea
+#                          Textarea is a block of text, usually resizable. For example on "Disabled on" tab you can see textarea.
+o_scroll_on_textarea_title=Textarea este un bloc de text, de obicei redimensionabil. De exemplu în fila „Dezactivat pe” puteți vedea textarea.
+#                         Scroll on editable html
+o_scroll_on_editable_html=Derulați pe html editabil
+#                               For example email body in Gmail is editable html.
+o_scroll_on_editable_html_title=De exemplu, corpul de e-mail din Gmail este html editabil.
+
+#                          on text will enable selecting / editing text.
+o_scroll_on_text_edit_with=pe text va permite selectarea / editarea textului.
+#                                Click on text will enable "Edit mode". Click outside text to enable "Scroll mode".
+o_scroll_on_text_edit_with_title=Faceți clic pe text pentru a activa „Modul editare”. Faceți clic pe textul exterior pentru a activa „Modul de defilare”.
+#                            Single click
+o_scroll_on_text_edit_with_0=Un singur clic
+#                            Double click
+o_scroll_on_text_edit_with_1=Faceți dublu clic
+
+#                  Scrollbars look
+o_scrollbars_width=Aspect bare de derulare
+#                    Normal (no change)
+o_scrollbars_width_0=Normal (fără modificări)
+#                    Thin
+o_scrollbars_width_1=subțire
+#                    Hidden
+o_scrollbars_width_2=Ascunse
+
+#                  Scrollbar slider color:
+o_scrollbars_color=Culoarea glisorului pentru bara de derulare:
+#                       Scrollbar background color:
+o_scrollbars_background=Culoarea de fundal a barei de derulare:
+
+#         Reverse scroll direction
+o_reverse=sens invers de derulare
+#             Alt
+o_disable_alt=Alt
+#               Shift
+o_disable_shift=Shift
+#              Ctrl
+o_disable_ctrl=Ctrl
+#                Disable when key is down:
+o_disable_type_0=Dezactivare când tasta este jos:
+#                Enable when key is down:
+o_disable_type_1=Activați când tasta este jos:
+#          disabled
+o_disabled=dezactivat
+#         enabled
+o_enabled=activat
+#          enable momentum - you can "throw" the page (like on phone)
+o_momentum=activare impuls - puteți „arunca” pagina (ca la telefon)
+#             Don't lock iframes and don't change cursor when scrolling
+o_no_css_edit=Nu blocați iframele și nu schimbați cursorul atunci când derulați
+#                    Don't block default button action
+o_no_prevent_default=Nu blocați acțiunea implicită a butonului
+#                Links blocking:
+o_auto_link_lock=Blocarea legăturilor:
+#               Don't block mouse click on link after movement
+o_no_link_block=Nu blocați clic pe link pe link după mișcare
+#                               When you start scrolling on a link and then you finish scrolling on the same link, browser will open the link. This is usually not desired behaviour so by default it's blocked.
+o_helper_text_middle_link_click=Când începeți derularea pe un link și apoi terminați derularea pe același link, browserul va deschide linkul. De obicei, acest comportament nu este dorit, deci implicit este blocat.
+
+#                   This controls how 'heavy' the page is. Heavier pages has longer momentum.
+o_page_weight_title=Aceasta controlează cât de încărcată este pagina. Paginile mai încărcate au un impuls mai lung.
+#                        You can accelerate momentum stating speed.
+o_additional_speed_title=Puteți accelera viteza de declarare a impulsului.
+#                           Additional time for each momentum.
+o_additional_duration_title=Timp suplimentar pentru fiecare impuls.
+#                         Momentum initial speed is determined by the speed of scrolling right before releasing the Scroll button.
+o_compute_from_last_title=Viteza inițială inițială este determinată de viteza de derulare chiar înainte de a elibera butonul Scroll.
+#                            How much time has to mouse stay still - before releasing the Scroll button - to NOT activate Momentum.
+o_mouse_stop_detection_title=Cât timp are mouse-ul să rămână nemișcat - înainte de a elibera butonul Scroll - pentru a NU activa Momentum.
+#                      Interval for measuring current scroll speed.
+o_tracking_speed_title=Interval pentru măsurarea vitezei curente de derulare .
+#                Scrolling area:
+o_scrolling_area=
+#                    Scrolling area (0 - disabled):
+o_outside_area_width=
+#                           Moving your cursor outside of scrolling area will revert scrolling position. Same behavior can be seen when dragging a scrollbar.
+o_outside_area_width_helper=
+
+#                          Warning - Left button support is using deprecated Firefox API that could be removed in future versions of Firefox.
+o_scroll_button_left_title=Avertisment - Suportul butonului stânga folosește API-ul Firefox învechit care ar putea fi eliminat în versiunile viitoare ale Firefox.
+#                        Prevent text selection when scrolling with left button
+o_prevent_text_selection=Împiedicați selecția textului atunci când derulați cu butonul stânga
+#                                    On some devices, scrolling with left mouse button will also select text on the page.
+o_helper_text_prevent_text_selection=Pe unele dispozitive, derularea cu butonul stâng al mouse-ului va selecta și textul de pe pagină.
+
+#                              Don't block context menu when trying to scroll not-scrollable page
+o_disable_context_menu_on_move=Nu blocați meniul contextual când încercați să derulați pagina care nu poate fi derulată
+
+
+#                Backup / Restore settings:
+o_backup_restore=Setări de rezervă / resetare:
+#                 Export settings to a file
+o_export_settings=Exportarea setărilor într-un fișier
+#                      Import settings from $1 file...
+import_settings_button=Importați setările din fișierul $1...
+#               Import finished!
+import_finished=Import finalizat!
+#             working...
+label_working=în lucru ...
+
+
+#               Test your scrolling settings here
+test_page_title=Testează setările de derulare aici
+
+
+#            Options
+menu_options=Opțiuni
+#                Visit homepage
+menu_visit_title=Accesați pagina de pornire
+#           Disabled by your web-browser
+not_working=Dezactivat de browser-ul dvs. web
+#                Disabled on this domain
+disabled_by_user=
+#                 Your browser will block ScrollAnywhere on these type of pages:
+not_working_title=Browserul dvs. va bloca ScrollAnywhere pe aceste tipuri de pagini:
+#                To enable ScrollAnywhere on "mozilla.org" pages, see this YouTube tutorial
+not_working_body=Pentru a activa ScrollAnywhere pe paginile „mozilla.org”, consultați acest tutorial YouTube
+
+#           Close
+label_close=Închide
+
+
+#             Switch add-on OFF / ON
+switch_on_off=Activează suplimentul OFF / ON
+
+#                                If you experience noticeable delay between pressing scroll button and starting scrolling, try to enable this option. However you will not be able to scroll over "iframes" such as some old embedded videos or some ads.
+o_helper_text_performance_iframe=Dacă aveți o întârziere vizibilă între apăsarea butonului de derulare și începerea derulării, încercați să activați această opțiune. Cu toate acestea, nu veți putea derula peste "iframe", cum ar fi unele videoclipuri vechi încorporate sau unele reclame.
+#                                This will also disable option to change cursor while scrolling.
+o_helper_text_performance_cursor=De asemenea, aceasta va dezactiva opțiunea de a schimba cursorul în timp ce derulați.
+#                            Useful in Linux to enable Paste with middle button.
+o_helper_text_default_action=Util în Linux pentru a activa Lipire cu butonul din mijloc.
+
+#             Hello :)
+o_about_hello=Bună ziua :)
+#             My name is Juraj Mäsiar and I'm the author of ScrollAnywhere.
+o_about_intro=Numele meu este Juraj Mäsiar și sunt autorul ScrollAnywhere.
+#               If you like it, please rate it here:
+o_about_like_it=Dacă vă place, evaluați-l aici:
+#                  If you don't like it, please let me know why to my e-mail. I'm implementing most of the feature-requests I receive.
+o_about_dislike_it=Dacă nu vă place, vă rog să mă anunțați de ce pe e-mailul meu. Implementez majoritatea solicitărilor de funcții pe care le primesc.
+
+#                  Please consider supporting my work by
+o_about_support_by=Vă rugăm să luați în considerare susținerea activității mele prin
+#                           donation (PayPal)
+o_about_support_by_donation=donație (PayPal)
+#                         becoming my Patron
+o_about_support_by_patron=devenind Patronul meu
+
+#              Thank you!
+o_about_thanks=Mulțumesc!
+#            home:
+o_about_home=acasă:
+#               Contact:
+o_about_contact=Contact:
+#              Report issues:
+o_about_issues=
+#                     I can reply only in English / Slovak
+o_about_support_reply=Pot răspunde numai în engleză / slovacă
+#                    Social media:
+o_about_social_media=Social media:
+#            Save changes and close
+o_save_close=Salvați modificările și închideți
+#       saved!
+o_saved=salvat!
+
+
+#                 Coming soon
+label_coming_soon=În curând
+#                  Save changes
+label_save_changes=Salvare modificări

@@ -18,3 +18,12 @@ https://addons.mozilla.org/addon/scroll_anywhere/
 **Chrome:**  
 https://chrome.google.com/webstore/detail/scrollanywhere/jehmdpemhgfgjblpkilmeoafmkhbckhi
 
+
+## How to translate
+To add new language, create new file under "locales/" with name "messages.XX" where "XX" is [language code](https://developer.chrome.com/webstore/i18n).
+
+To fix existing translations simply go to "locales/messages.XX" and fix the message.  
+
+Before releasing new version I will pull all changes and build extension.  
+
+**Thank You for your help!**
