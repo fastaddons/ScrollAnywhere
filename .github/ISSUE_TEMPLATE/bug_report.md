@@ -22,7 +22,7 @@ A clear and concise description of what you expected to happen.
 **Device info:**
  - operating system: 
  - Browser and version: 
- - ScrollAnywhere version: 
+ - addon version: 
 
 
 **Additional info**
