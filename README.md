@@ -27,3 +27,6 @@ To fix existing translations simply go to "locales/messages.XX" and fix the mess
 Before releasing new version I will pull all changes and build extension.  
 
 **Thank You for your help!**
+
+### License
+[Copyright 2016 Juraj Mäsiar - All Rights Reserved](LICENSE)
