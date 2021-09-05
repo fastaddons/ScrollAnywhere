@@ -5,9 +5,6 @@
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T01QUSE)
 
-[![librepay-patrons](https://img.shields.io/liberapay/patrons/juraj.masiar.svg?logo=liberapay)](https://liberapay.com/juraj.masiar/)
-[![librepay-receives](https://img.shields.io/liberapay/receives/juraj.masiar.svg?logo=liberapay)](https://liberapay.com/juraj.masiar/)
-
 # ScrollAnywhere
 
 ScrollAnywhere is extension that allows you to scroll web with ease :)
@@ -19,14 +16,6 @@ https://addons.mozilla.org/addon/scroll_anywhere/
 https://chrome.google.com/webstore/detail/scrollanywhere/jehmdpemhgfgjblpkilmeoafmkhbckhi
 
 
-## How to translate
-To add new language, create new file under "locales/" with name "messages.XX" where "XX" is [language code](https://developer.chrome.com/webstore/i18n).
-
-To fix existing translations simply go to "locales/messages.XX" and fix the message.  
-
-Before releasing new version I will pull all changes and build extension.  
-
-**Thank You for your help!**
 
 ### License
-[Copyright 2016 Juraj Mäsiar - All Rights Reserved](LICENSE)
+[Copyright 2016-2021 Juraj Mäsiar - All Rights Reserved](LICENSE)
