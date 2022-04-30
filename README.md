@@ -9,13 +9,22 @@
 
 ScrollAnywhere is extension that allows you to scroll web with ease :)
 
+### Help with translations
+https://github.com/fastaddons/locales  
+*Thank you!*
+
+### Download here
 **Firefox:**  
 https://addons.mozilla.org/addon/scroll_anywhere/
 
 **Chrome:**  
 https://chrome.google.com/webstore/detail/scrollanywhere/jehmdpemhgfgjblpkilmeoafmkhbckhi
 
-
+### Origin
+This extension has special a place in my heart - it's the very first one I've built!  
+It was all the way back in 2016, while visiting my parents in my hometown.  
+At that time, I was using "Grab and Drag" addon for Firefox, and I've learned that upcoming Firefox 57 will not support these old addons.  
+And when I found that addons are actually build using HTML/CSS/JavaScript - technologies I've already knew very well, I've decided to create a replacement! And soon after, Group Speed Dial was born as well...
 
 ### Privacy Policy
 [Read privacy policy here.](PRIVACY_POLICY.md)
