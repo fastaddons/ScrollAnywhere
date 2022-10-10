@@ -3,7 +3,7 @@
 [![Mozilla Add-on users](https://img.shields.io/amo/users/scroll_anywhere.svg)](https://addons.mozilla.org/addon/scroll_anywhere/statistics/)
 [![Mozilla Add-on stars](https://img.shields.io/amo/stars/scroll_anywhere.svg)](https://addons.mozilla.org/addon/scroll_anywhere/reviews/)
 
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T01QUSE)
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/fastaddons)
 
 [![librepay-patrons](https://img.shields.io/liberapay/patrons/juraj.masiar.svg?logo=liberapay)](https://liberapay.com/juraj.masiar/)
 [![librepay-receives](https://img.shields.io/liberapay/receives/juraj.masiar.svg?logo=liberapay)](https://liberapay.com/juraj.masiar/)
