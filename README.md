@@ -5,28 +5,29 @@
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/fastaddons)
 
-[![librepay-patrons](https://img.shields.io/liberapay/patrons/juraj.masiar.svg?logo=liberapay)](https://liberapay.com/juraj.masiar/)
-[![librepay-receives](https://img.shields.io/liberapay/receives/juraj.masiar.svg?logo=liberapay)](https://liberapay.com/juraj.masiar/)
-
 # ScrollAnywhere
 
 ScrollAnywhere is extension that allows you to scroll web with ease :)
 
+### Help with translations
+https://github.com/fastaddons/locales  
+*Thank you!*
+
+### Download here
 **Firefox:**  
 https://addons.mozilla.org/addon/scroll_anywhere/
 
 **Chrome:**  
 https://chrome.google.com/webstore/detail/scrollanywhere/jehmdpemhgfgjblpkilmeoafmkhbckhi
 
+### Origin
+This extension has special a place in my heart - it's the very first one I've built!  
+It was all the way back in 2016, while visiting my parents in my hometown.  
+At that time, I was using "Grab and Drag" addon for Firefox, and I've learned that upcoming Firefox 57 will not support these old addons.  
+And when I found that addons are actually build using HTML/CSS/JavaScript - technologies I've already knew very well, I've decided to create a replacement! And soon after, Group Speed Dial was born as well...
 
-## How to translate
-To add new language, create new file under "locales/" with name "messages.XX" where "XX" is [language code](https://developer.chrome.com/webstore/i18n).
-
-To fix existing translations simply go to "locales/messages.XX" and fix the message.  
-
-Before releasing new version I will pull all changes and build extension.  
-
-**Thank You for your help!**
+### Privacy Policy
+[Read privacy policy here.](PRIVACY_POLICY.md)
 
 ### License
-[Copyright 2016 Juraj Mäsiar - All Rights Reserved](LICENSE)
+[Copyright 2016-2021 Juraj Mäsiar - All Rights Reserved](LICENSE)
