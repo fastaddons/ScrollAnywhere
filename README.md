@@ -9,10 +9,6 @@
 
 ScrollAnywhere is extension that allows you to scroll web with ease :)
 
-### Help with translations
-https://github.com/fastaddons/locales  
-*Thank you!*
-
 ### Download here
 **Firefox:**  
 https://addons.mozilla.org/addon/scroll_anywhere/
